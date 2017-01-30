@@ -50,7 +50,7 @@
     <div class="banner">
         <h1>
           <a href="{{ node ? path('entity.node.canonical', {'node': node.id }) : '' }}">
-            {{ node.getTitle() ? node.getTitle() : '' }}
+            {{ node.getTitle() ? node.getTitle() : page.title }}
           </a>
         </h1>
         <p>{{ node.body.summary }}</p>
@@ -58,7 +58,7 @@
 
   </header>
 
-  <main role="main">
+  <main>
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
@@ -68,7 +68,7 @@
   </main>
 
   {% if page.footer %}
-    <footer role="contentinfo">
+    <footer>
       {%  include '@profile_site/parts/social-media-icons.html.twig' %}
       {{ page.footer }}
     </footer>

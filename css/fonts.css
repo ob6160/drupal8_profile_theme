@@ -5,18 +5,4 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Fontin-Sans';
-    src: url('../fonts/Fontin_Sans_R_45b.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Prociono-Regular';
-    src: url('../fonts/Prociono-Regular.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat');

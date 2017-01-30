@@ -8,6 +8,7 @@ libraries:
   - 'profile_site/scripts'
 stylesheets-remove:
   - core/assets/vendor/normalize-css/normalize.css
+  - core/themes/classy/css/components/menu.css
 regions:
   header: Header
   content: Content

@@ -53,7 +53,7 @@
     </div>
   </header>
 
-  <main role="main">
+  <main>
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
@@ -63,7 +63,7 @@
   </main>
 
   {% if page.footer %}
-    <footer role="contentinfo">
+    <footer>
       {%  include '@profile_site/parts/social-media-icons.html.twig' %}
       {{ page.footer }}
     </footer>

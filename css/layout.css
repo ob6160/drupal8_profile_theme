@@ -75,10 +75,6 @@ p + p {
     margin-top: 0.75em;
 }
 
-p {
-
-}
-
 em, i, q, cite {
     font-style: italic;
 }
@@ -130,9 +126,19 @@ h4 {
 
 
 /* Navigation */
-nav[role="navigation"] {
+nav {
     max-width: 500px;
     margin: 0 auto;
+}
+
+/* Links */
+a, a:visited {
+    color: black;
+    border-bottom: 1px solid;
+}
+
+a:hover, a:active {
+    border-bottom: 2px solid;
 }
 
 /* Articles */

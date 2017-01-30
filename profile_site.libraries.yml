@@ -12,10 +12,10 @@ scripts:
   js:
     js/main.js: {}
   dependencies:
-    - core/jquery
-    - core/jquery.once
-    - core/modernizr
-    - core/jquery.ui
+#    - core/jquery
+#    - core/jquery.once
+#    - core/modernizr
+#    - core/jquery.ui
     - core/drupal
-    - core/drupal.ajax
+#    - core/drupal.ajax
     - core/drupalSettings

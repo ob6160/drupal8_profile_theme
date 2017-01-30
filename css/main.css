@@ -16,11 +16,12 @@ header h1 {
 
 
 /* Menu */
-nav[role="navigation"] {
+nav {
 
 }
 
-nav[role="navigation"] ul {
+nav ul,
+ul.menu {
     margin: 0;
     text-align: left;
     padding: 0.75em;
@@ -30,7 +31,7 @@ nav[role="navigation"] ul {
     font-size: 1.125em;
 }
 
-nav[role="navigation"] li {
+nav li {
     list-style: none;
     display: table-cell;
     text-align: center;
@@ -39,7 +40,7 @@ nav[role="navigation"] li {
     width: 25%;
 }
 
-nav[role="navigation"] li.menu-item--active-trail {
+nav li.menu-item--active-trail {
     display: none;
 }
 
@@ -54,6 +55,7 @@ nav[role="navigation"] li.menu-item--active-trail {
 }
 
 .footer-social-icons li a {
+    color: white;
     border: none;
 }
 
@@ -74,25 +76,17 @@ article .node__links {
 
 }
 
-/* Links */
-a, a:visited {
-    color: black;
-    border-bottom: 1px solid;
-}
-
-a:hover, a:active {
-    border-bottom: 2px solid;
-}
 
 /* Footer */
-footer[role=contentinfo] {
+footer {
     background: #191919;
     color: #fff;
     text-align: center;
     padding: 2em;
 }
 
-footer[role=contentinfo] a {
+footer a,
+.region-footer a {
     color: white;
 }
 
