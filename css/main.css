@@ -108,16 +108,16 @@ footer[role=contentinfo] a {
     h3 {
         font-size: 1.4em;
     }
-    article > h3 {
-        text-align: center;
-    }
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 850px) {
+@media only screen and (max-width : 1024px) {
     article {
         max-width: 100%;
         max-width: 100vw;
+    }
+    article > h3 {
+        text-align: center;
     }
 }
 
