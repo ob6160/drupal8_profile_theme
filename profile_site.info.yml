@@ -9,6 +9,7 @@ libraries:
 stylesheets-remove:
   - core/assets/vendor/normalize-css/normalize.css
   - core/themes/classy/css/components/menu.css
+  - core/themes/classy/css/components/form.css
 regions:
   header: Header
   content: Content
