@@ -178,7 +178,7 @@ label {
 
 label + *,
 input + label,
-* + .details-wrapper {
+.details-wrapper {
     margin-top: .25em;
 }
 
