@@ -37,13 +37,25 @@
     <head-placeholder token="{{ placeholder_token }}">
     <title>{{ head_title|safe_join(' | ') }}</title>
 
-    <meta name="description" content="Oliver Barnwell's Profile Website">
+    <!-- Google -->
+    <meta name="description" content="Oliver Barnwell's Personal Website">
+    <meta name="keywords" content="Oliver, Barnwell, barno.org">
     <meta name="author" content="Oliver Barnwell">
+    <meta name="copyright" content="Oliver Barnwell">
+    <meta name="application-name" content="Personal Website">
 
-    <meta property="og:title" content="Oliver Barnwell" />
-    <meta property="og:type" content="Personal Website" />
-    <meta property="og:url" content="https://barno.org/" />
-    {#<meta property="og:image" content="http://image.jpg" />#}
+    <!-- Facebook / LinkedIn-->
+    <meta property="og:title" content="Oliver Barnwell"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content="https://barno.org"/>
+    <meta property="og:description" content="Oliver Barnwell's Personal Website"/>
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Oliver Barnwell">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:description" content="Oliver Barnwell's Personal Website">
 
     <css-placeholder token="{{ placeholder_token }}">
     <js-placeholder token="{{ placeholder_token }}">
@@ -61,6 +73,7 @@
     {{ page_bottom }}
     <js-bottom-placeholder token="{{ placeholder_token }}">
 
+    <!-- GA Tracking -->
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
